@@ -19,7 +19,7 @@ class Controller_account extends controller
                 $this->model->password = $_POST['password'];
             }
 
-            $data = $this->model->check_err();
+            $data = $this->model->done();
             $this->view->generate('registration_view.php', 'template_view.php', $data);
         } else {
             $this->view->generate('registration_view.php', 'template_view.php');
