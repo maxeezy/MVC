@@ -18,7 +18,7 @@
         <input type="submit" name="butt" class="button" style="margin-top: 10px;margin-bottom: 10px;min-width: 300px;padding: 15px 20px;border: none;border-radius: 4px;background-color:#1a1a1a;color: #737373;outline: none;background-color: #ffbb33;color: white;">
         <div class="field" style="display: flex;flex-direction: column;align-items: center;justify-content: center;background-color: #262626;">
             <?php foreach ($data as $value) {
-                print $value;
+                print "<div style='color: #ffbb33'>$value</div>";
             } ?></div>
 
     </div>

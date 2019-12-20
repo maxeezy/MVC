@@ -10,4 +10,12 @@ class Connection
 
         return $conn;
     }
+    public function  proverka($que)
+    {
+        $sql = self::createSql();
+        if ($result = $sql->query($que)) {
+            $row = $result->num_rows;
+        }
+        return $row;
+    }
 }
