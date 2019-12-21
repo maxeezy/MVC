@@ -8,6 +8,6 @@
     <title>Аккаунт</title>
 </head>
 <body>
-<a href="http://mvc/account/registration">Зарегистрируйтесь</a>
+<a href="http://mymvc/account/registration">Зарегистрируйтесь</a>
 </body>
 </html>
